@@ -1,0 +1,29 @@
+{
+  "name": "tree-shaking-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shaking": "rm -rf lib && node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m7yue/tree-shaking-demo.git"
+  },
+  "keywords": [],
+  "author": "7yue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m7yue/tree-shaking-demo/issues"
+  },
+  "homepage": "https://github.com/m7yue/tree-shaking-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/generator": "^7.21.1",
+    "@babel/parser": "^7.21.1",
+    "@babel/traverse": "^7.21.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  }
+}
